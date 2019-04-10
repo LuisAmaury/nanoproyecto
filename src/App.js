@@ -19,19 +19,13 @@ class App extends Component {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+        <div className="App-body">
+        <div className="demo-1">
+            <div id="large-header" className="large-header">
+              <canvas id="demo-canvas"></canvas>
+              <h1 className="main-title">COMPUTACIÓN <span className="thin">CUÁNTICA</span></h1>
+            </div>
+        </div>
         </div>
       </div>
     );
